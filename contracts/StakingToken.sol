@@ -52,7 +52,7 @@ contract StakingToken is Ownable, StakingReward {
   */
   constructor(){
       _name = "Ixir StakingToken";
-      _symbol = "$IxirSTK";
+      _symbol = "$STK";
       _decimals = 18;
       _totalSupply = (10**9) * (10**18);
 
